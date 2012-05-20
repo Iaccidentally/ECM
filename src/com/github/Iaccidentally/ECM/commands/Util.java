@@ -11,4 +11,8 @@ package com.github.Iaccidentally.ECM.commands;
  */
 public class Util {
 
+    public static void log(String string) {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
+
 }
