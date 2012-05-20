@@ -1,0 +1,6 @@
+name: ECM
+main: com.github.Iaccidentally.ECM.ECM
+Version: 0.01a
+website: http://wiskr.net
+authors: [Iaccidentally, Whisk]
+commands:
