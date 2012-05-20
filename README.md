@@ -68,7 +68,7 @@ We are, especially at this stage, looking for feature and function requests, ide
 
 Information - 
 
-Though this project may eventually be integrated into Essentials, this porject is not officially sponsored by, endorsed by, or built by Essentials.  Any function which ECM uses which is similar to a function found in other plugins is either coincidence or simply the only way to do it, we're not stealing your codes.  Anything else is, well, irrelevent
+Though this project may eventually be integrated into Essentials, this project is not officially sponsored by, endorsed by, or built by Essentials.  Any function which ECM uses which is similar to a function found in other plugins is either coincidence or simply the only way to do it, we're not stealing your codes.  Anything else is, well, irrelevent
 
 
 (if your name is not rightfully in the above list, and you want it there, please say something to someone,
