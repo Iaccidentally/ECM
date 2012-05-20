@@ -91,4 +91,15 @@ public class ECM extends JavaPlugin {
         return language;
     }
     
+    public void saveLanguageData() {
+        if (language == null || languageFile == null) return;
+        try {
+            language.save(languageFile);
+            
+        } catch (IOExcpetion ex) {
+            Util.log("Could not save config to " + languageFile);
+        }
+        
+    }
+    
 }
