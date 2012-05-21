@@ -11,6 +11,7 @@ We are a group of people working under the auspices of the Essentials project.
     Ghostmuffin   - Ideas
     Riaku         - Modding Consultant
     Zarubinator   - Tester
+    chrisward     - Developer
 
 Brought to you by the letter E, the number 4 and the support of players like You!
 
@@ -19,7 +20,7 @@ What -
 
 ECM is the codename for a project to build an object manipulation, terrain reforming, and aesthetics plug-in for Bukkit. This includes meta-gaming functions beyond that of creative mode, allowing object copy/paste, rotation, area modification on a grand scale, and the ability to save and build saved patterns in files, and geometric shape creation.
 
-Expect features such as those you would find in a graphics art program, the old hMob plug-in Cuboid, and level editors from some other games, as well as features known to users of other certain Bukkit plug-ins.
+Expect features such as those you would find in a graphics art program, the old hMod plug-in Cuboid, and level editors from some other games, as well as features known to users of other certain Bukkit plug-ins.
 
 
 When -
