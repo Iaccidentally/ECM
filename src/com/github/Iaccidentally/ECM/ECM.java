@@ -7,7 +7,6 @@ import java.util.logging.Logger;
 
 import com.github.Iaccidentally.ECM.commands.Util;
 import com.github.Iaccidentally.ECM.configuration.Configuration;
-import org.bukkit.configuration.Configuration;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
