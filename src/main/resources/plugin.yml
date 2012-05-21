@@ -4,3 +4,68 @@ version: 0.01a
 website:
 authors: [Iaccidentally, Whisk]
 commands:
+   adduser:
+      description: adds a user so they can use editing functions.
+      usage: /<command> [player]
+      permission: ECM.adduser
+      permission-message: You don't have <permission>
+   deluser:
+      description: deletes a user from the list.
+      usage: /<command> [player]
+      permission: ECM.deluser
+      permission-message: You don't have <permission>
+   copy:
+      description: copy the current selection.
+      usage: /<command>
+      permission: ECM.copy
+      permission-message: You don't have <permission>
+   cut:
+      description: cut the current selection.
+      usage: /<command>
+      permission: ECM.cut
+      permission-message: You don't have <permission>
+   move:
+      description: moves the current selection x blocks in y direction.
+      usage: /<command> [distance] [direction]
+      permission: ECM.move
+      permission-message: You don't have <permission>
+   paste:
+      description: pastes the current selection
+      usage: /<command>
+      permission: ECM.paste
+      permission-message: You don't have <permission>
+   pos1:
+      description: sets the first position for the cuboid.
+      usage: /<command>
+      permission: ECM.pos1
+      permission-message: You don't have <permission>
+   pos2:
+      description: sets the second position for the cuboid.
+      usage: /<command>
+      permission: ECM.pos2
+      permission-message: You don't have <permission>
+   redo:
+      description: redo the last action.
+      usage: /<command>
+      permission: ECM.redo
+      permission-message: You don't have <permission>
+   replace:
+      description: replaces block x with block y withing the current selection.
+      usage: /<command> [block1] [block2]
+      permission: ECM.replace
+      permission-message: You don't have <permission>
+   rotate:
+      description: rotates the current selection.
+      usage: /<command>
+      permission: ECM.rotate
+      permission-message: You don't have <permission>
+   set:
+      description: sets the current selection to a block.
+      usage: /<command> [block]
+      permission: ECM.set
+      permission-message: You don't have <permission>
+   undo:
+      description: undo the last action.
+      usage: /<command>
+      permission: ECM.undo
+      permission-message: You don't have <permission>
