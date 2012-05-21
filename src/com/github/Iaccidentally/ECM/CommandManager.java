@@ -10,7 +10,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.github.Iaccidentally.ECM.commands.*;
-import com.github.Iaccidentally.ECM.ECM;
 
 /**
  *
@@ -29,7 +28,7 @@ public class CommandManager {
     
     
             
-    @Override
+
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         CommandManager.sender = sender;
         
@@ -111,3 +110,4 @@ public class CommandManager {
         loc[id] = newLoc;
         return;
     }
+}
