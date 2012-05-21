@@ -26,10 +26,5 @@
       <artifactId>com.github.iaccidentally.ecm</artifactId>
       <version>1.2.5-R2.0</version>
     </dependency>
-    <dependency>
-      <groupId>herp</groupId>
-      <artifactId>derp</artifactId>
-      <version>9001</version>
-    </dependency>
   </dependencies>
 </project>
