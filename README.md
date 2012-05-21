@@ -9,8 +9,8 @@ We are a group of people working under the auspices of the Essentials project.
     Whisk         - Developer
     AeSix         - Assistant
     Ghostmuffin   - Ideas
-    Riaku         - 
-    Zarubinator   - 
+    Riaku         - Modding Consultant
+    Zarubinator   - Tester
 
 Brought to you by the letter E, the number 4 and the support of players like You!
 
