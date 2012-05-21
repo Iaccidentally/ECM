@@ -22,7 +22,7 @@ public class ECM extends JavaPlugin
 	private File dataFile = null, languageFile = null;
 	
 	public void onEnable()
-	{
+        {
 		log = this.getLogger();
 		manager = new CommandManager(this);
 		
