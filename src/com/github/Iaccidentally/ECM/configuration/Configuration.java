@@ -12,6 +12,7 @@ import com.github.Iaccidentally.ECM.CommandManager;
  * @author Whisk
  */
 public class Configuration {
+    private static String stringToReturn;
     
     /**
      * Returns configuration data from the node
