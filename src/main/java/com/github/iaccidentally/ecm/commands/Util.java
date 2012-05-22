@@ -5,7 +5,9 @@
 
 package com.github.iaccidentally.ecm.commands;
 
+import org.bukkit.block.Block;
 import org.bukkit.command.Command;
+import org.bukkit.util.BlockVector;
 
 /**
  *
@@ -26,6 +28,10 @@ public class Util {
     }
 
     public static boolean debugEnabled() {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
+
+    public static BlockVector toVector(Block block) {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
