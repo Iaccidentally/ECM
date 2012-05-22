@@ -3,9 +3,9 @@
  * and open the template in the editor.
  */
 
-package com.github.Iaccidentally.ECM.configuration;
+package com.github.iaccidentally.ecm.configuration;
 
-import com.github.Iaccidentally.ECM.CommandManager;
+import com.github.iaccidentally.ecm.CommandManager;
 
 /**
  *

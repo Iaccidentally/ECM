@@ -2,14 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.github.Iaccidentally.ECM;
+package com.github.iaccidentally.ecm;
 
 import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.github.Iaccidentally.ECM.commands.*;
+import com.github.iaccidentally.ecm.commands.*;
 
 /**
  *
@@ -39,8 +39,18 @@ public class CommandManager {
         }
         
         // Parse the commands
-        if(args[0].equalsIgnoreCase("adduser"))
+        if (args[0].equalsIgnoreCase("adduser"))
         {
+        	boolean isRealPlayer = sender.getServer().getPlayer(args[1]).isOnline();
+        	
+            if (args[1].equalsIgnoreCase("help") || args[1].equalsIgnoreCase("h")) 
+            {
+            	addUserHelp(sender);
+            }
+            else if (isRealPlayer)
+            {
+
+            }
             
         }
         else if(args[0].equalsIgnoreCase("copy"))
@@ -109,5 +119,9 @@ public class CommandManager {
     public static void setLocation(Location newLoc, int id) {
         loc[id] = newLoc;
         return;
+    }
+    
+    public static void addUserHelp(CommandSender sender) {
+    	//Help docs here!
     }
 }
