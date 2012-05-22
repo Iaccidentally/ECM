@@ -25,10 +25,9 @@ public class Commandadduser extends JavaPlugin {
 				+ "UserNames.yml");
 		boolean configExists = configFile.exists() && configFile.canRead()
 				&& configFile.canWrite();
-
 		boolean userIsNotAdded = userName.getString("EMC.Users", user) == null;
 
-		if (userIsNotAdded && configExists) {
+		if (userIsNotAdded && configExists && sender.hasPermission("ECM.adduser") || sender.hasPermission("ECM.*")) {
 			userName.set("EMC.Users", user);
 			userName.save("");
 			realUser.sendRawMessage("You have been added to the config!");
@@ -36,5 +35,4 @@ public class Commandadduser extends JavaPlugin {
 			sender.sendRawMessage("That user is already in the user file!");
 		}
 	}
-
 }
