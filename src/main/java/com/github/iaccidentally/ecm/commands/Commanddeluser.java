@@ -20,7 +20,7 @@ public class Commanddeluser extends JavaPlugin {
 			throws IOException {
 		FileConfiguration userName = getConfig();
 		File configFile = new File("plugins" + File.pathSeparator + "EMC"
-				+ "UserNames.yml");
+				+ "users.yml");
 		boolean configExists = configFile.exists() && configFile.canRead()
 				&& configFile.canWrite();
 		boolean userIsAdded = userName.getString("EMC.Users", user) != null;

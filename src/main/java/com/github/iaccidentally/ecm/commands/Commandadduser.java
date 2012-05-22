@@ -22,7 +22,7 @@ public class Commandadduser extends JavaPlugin {
 
 		FileConfiguration userName = getConfig();
 		File configFile = new File("plugins" + File.pathSeparator + "EMC"
-				+ "UserNames.yml");
+				+ "users.yml");
 		boolean configExists = configFile.exists() && configFile.canRead()
 				&& configFile.canWrite();
 		boolean userIsNotAdded = userName.getString("EMC.Users", user) == null;
