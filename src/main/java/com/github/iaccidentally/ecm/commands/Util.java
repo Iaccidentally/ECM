@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package com.github.Iaccidentally.ECM.commands;
+package com.github.iaccidentally.ecm.commands;
 
 import org.bukkit.block.Block;
 import org.bukkit.command.Command;

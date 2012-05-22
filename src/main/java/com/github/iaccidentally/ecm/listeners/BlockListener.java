@@ -5,7 +5,7 @@
 
 package com.github.iaccidentally.ecm.listeners;
 
-import com.github.Iaccidentally.ECM.commands.Util;
+import com.github.iaccidentally.ecm.commands.Util;
 import org.bukkit.ChatColor;
 import org.bukkit.World;
 import org.bukkit.block.Block;
