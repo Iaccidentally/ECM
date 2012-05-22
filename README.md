@@ -18,18 +18,18 @@ Brought to you by the letter E, the number 4 and the support of players like You
 
 What - 
 
-ECM is the codename for a project to build an object manipulation, terrain reforming, and aesthetics plug-in for Bukkit. This includes meta-gaming functions beyond that of creative mode, allowing object copy/paste, rotation, area modification on a grand scale, and the ability to save and build saved patterns in files, and geometric shape creation.
+ECM is the code-name for a project to build an object manipulation, terrain reforming, and aesthetics plug-in for Bukkit. This includes meta-gaming functions beyond that of creative mode, allowing object copy/paste, rotation, area modification on a grand scale, and the ability to save and build saved patterns in files, and geometric shape creation.
 
 Expect features such as those you would find in a graphics art program, the old hMod plug-in Cuboid, and level editors from some other games, as well as features known to users of other certain Bukkit plug-ins.
 
 
 When -
 
-We are currently designing the base plugin.  This is a time consuming operation, as this is a very large project in concept, but may take time to flesh out the basics to get started.  The team is made of top-notch developers and project maangers, so expect this project to take off fairly quickly, and to have a working beta rather soon!
+We are currently designing the base plugin.  This is a time consuming operation, as this is a very large project in concept, but may take time to flesh out the basics to get started.  The team is made of top-notch developers and project mangers, so expect this project to take off fairly quickly, and to have a working beta rather soon!
 
 Where -
 
-We are located on IRC at Esper.net and can be contacted there.  If you start talking to one of us about the project, please mention the project as we all have many things on our plates.  We will not magically know what you're refering to if you say "I want to help you code" or "How long is the project going to be?" 
+We are located on IRC at Esper.net and can be contacted there.  If you start talking to one of us about the project, please mention the project as we all have many things on our plates.  We will not magically know what you're referring to if you say "I want to help you code" or "How long is the project going to be?" 
 
 
 Why -
@@ -39,11 +39,11 @@ Though many of the functions and features we have planned for ECM are available 
 
 How -
 
-First, we're taking the ideas of old, the functions of use, and the features people want and we're organizing them properly.  Second, we're not relying on any old code.  We're doing this from the ground up.  There may be dependencies on EssentialsCore, EssentialsSigns, and possibly a few other Essentials Project functions, as the plan is to integrate ECM into Essentials Project.  This is the only code we may impliment not directly written for this project.  
+First, we're taking the ideas of old, the functions of use, and the features people want and we're organizing them properly.  Second, we're not relying on any old code.  We're doing this from the ground up.  There may be dependencies on EssentialsCore, EssentialsSigns, and possibly a few other Essentials Project functions, as the plan is to integrate ECM into Essentials Project.  This is the only code we may implement not directly written for this project.  
 
 We will also integrate other projects to give function, but these are used by the plug-in, not part of the plug-in.  These may include such as SQLite, jdbc connectors for SQL servers, Open formats for 3D object storage.  
 
-We're a github project, as you probably already knew.  We're also working via IRC and piratepad for collaberation.  
+We're a github project, as you probably already knew.  We're also working via IRC and Piratepad for collaboration.  
 
 
 Considerations - 
@@ -69,7 +69,7 @@ We are, especially at this stage, looking for feature and function requests, ide
 
 Information - 
 
-Though this project may eventually be integrated into Essentials, this project is not officially sponsored by, endorsed by, or built by Essentials.  Any function which ECM uses which is similar to a function found in other plugins is either coincidence or simply the only way to do it, we're not stealing your codes.  Anything else is, well, irrelevent
+Though this project may eventually be integrated into Essentials, this project is not officially sponsored by, endorsed by, or built by Essentials.  Any function which ECM uses which is similar to a function found in other plugins is either coincidence or simply the only way to do it, we're not stealing your codes.  Anything else is, well, irrelevant
 
 
 (if your name is not rightfully in the above list, and you want it there, please say something to someone,
