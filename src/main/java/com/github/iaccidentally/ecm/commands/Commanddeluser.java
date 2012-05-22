@@ -26,7 +26,7 @@ public class Commanddeluser extends JavaPlugin {
 		boolean userIsAdded = userName.getString("EMC.Users", user) != null;
 		
 		if (configExists && userIsAdded && sender.hasPermission("EMC.deluser") || sender.hasPermission("EMC.*")) {
-			userName.set("EMC.deluser." + user, "");
+			userName.set("EMC.deluser." + user, null);
 		}
 		
 	}
