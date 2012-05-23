@@ -37,11 +37,11 @@ public class Chat {
 	
 	public void errorMessage(Player player, String message) {
 		if (message == null) {
-			String error = aqua + "[E.C.M. " + underline + "Error" + aqua + "]"
+			String error = aqua + "[ECM " + underline + "Error" + aqua + "]"
 					+ red + "You have made an error! See the logfile!";
 			player.sendRawMessage(error);
 		} else {
-			String error = aqua + "[E.C.M. " + underline + "Error" + aqua + "]"
+			String error = aqua + "[ECM " + underline + "Error" + aqua + "]"
 					+ red + message;
 			player.sendRawMessage(error);
 		}
@@ -49,11 +49,11 @@ public class Chat {
 
 	public void finishMessage(Player player, String message) {
 		if (message == null) {
-			String finished = aqua + "[ " + bold + " E.C.M. " + aqua + "] "
+			String finished = aqua + "[ " + bold + " ECM " + aqua + "] "
 					+ "You have finished that command!";
 			player.sendRawMessage(finished);
 		} else {
-			String finished = aqua + "[ " + bold + " E.C.M. " + aqua + "] "
+			String finished = aqua + "[ " + bold + " ECM " + aqua + "] "
 					+ message;
 			player.sendRawMessage(finished);
 		}
