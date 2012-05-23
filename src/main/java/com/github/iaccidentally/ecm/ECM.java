@@ -1,12 +1,12 @@
-package com.github.Iaccidentally.ECM;
+package com.github.iaccidentally.ecm;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.logging.Logger;
 
-import com.github.Iaccidentally.ECM.commands.Util;
-import com.github.Iaccidentally.ECM.configuration.Configuration;
+import com.github.iaccidentally.ecm.commands.Util;
+import com.github.iaccidentally.ecm.configuration.Configuration;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;

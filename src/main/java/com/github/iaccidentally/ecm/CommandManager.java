@@ -2,14 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.github.Iaccidentally.ECM;
+package com.github.iaccidentally.ecm;
 
 import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.github.Iaccidentally.ECM.commands.*;
+import com.github.iaccidentally.ecm.commands.*;
 
 /**
  *
