@@ -23,9 +23,6 @@ public class Util {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
-    public static boolean isPlayer() {
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
 
     public static void sendInvalid(Command cmd, String[] args) {
         throw new UnsupportedOperationException("Not yet implemented");
@@ -58,7 +55,7 @@ public class Util {
             else return false;
         }
         
-        if(player.hasPermission("ecm."))
+        if(player.hasPermission("ecm." + node))
             return true;
         return false;
     }
@@ -72,6 +69,23 @@ public class Util {
     public static boolean playerHasPermission(Player player, String node) {
         boolean usePermissions = Configuration.getBoolean("configuration.use-permissions");
         
-        if(!usePermissions)
+        if(!usePermissions) {
+            if(player.isOp()) return true;
+            else return false;
+            
+        }
+        if(player.hasPermission("ecm." + node))
+            return true;
+        return false;
+        
     }
+    
+    public static boolean isPlayer() {
+        CommandSender sender = CommandManager.getSender();
+        
+        if(sender instanceof Player) return true;
+        else return false;
+    }
+    
+    
 }
