@@ -8,8 +8,7 @@ package com.github.iaccidentally.ecm.listeners;
  *
  * @author casdorph.gavin & Iaccidentally
  */
-import com.github.iaccidentally.ecm.commands.Util; 
-import com.github.iaccidentally.ecm.listeners.BlockListener;
+import com.github.iaccidentally.ecm.commands.Util;
 import org.bukkit.ChatColor;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;

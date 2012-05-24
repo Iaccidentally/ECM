@@ -6,7 +6,6 @@ package com.github.iaccidentally.ecm.commands;
 
 import java.io.File;
 import java.io.IOException;
-
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
