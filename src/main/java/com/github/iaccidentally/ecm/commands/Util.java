@@ -28,10 +28,6 @@ public class Util {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 
-    public static boolean debugEnabled() {
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
-
     public static BlockVector toVector(Block block) {
         throw new UnsupportedOperationException("Not yet implemented");
     }
@@ -84,6 +80,11 @@ public class Util {
         CommandSender sender = CommandManager.getSender();
         
         if(sender instanceof Player) return true;
+        else return false;
+    }
+    
+    public static boolean debugEnabled() {
+        if(Configuration.getBoolean("configuration.debug-mod")) return true;
         else return false;
     }
     
