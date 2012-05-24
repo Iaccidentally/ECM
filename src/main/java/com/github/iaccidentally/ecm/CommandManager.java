@@ -41,7 +41,7 @@ public class CommandManager {
         // Parse the commands
         if(args[0].equalsIgnoreCase("adduser"))
         {
-            
+            Commandadduser.addUser(player, args[1]);
         }
         else if(args[0].equalsIgnoreCase("copy"))
         {
@@ -89,7 +89,7 @@ public class CommandManager {
             return false;
         }
         
-        if(Util.debugEnabled() && Util.isPlayer()) Util.log(player.getName() + " sent a command : " + cmd.getName() + " " + args[0]);
+        if (Util.debugEnabled() && Util.isPlayer()) Util.log(player.getName() + " sent a command : " + cmd.getName() + " " + args[0]);
         
         return true;
     }
