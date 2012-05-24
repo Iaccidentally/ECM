@@ -88,5 +88,8 @@ public class Util {
         else return false;
     }
     
-    
+    public static void sendMessage(String message) {
+        CommandSender sender = CommandManager.getSender();
+        sender.sendMessage(message);
+    }
 }
