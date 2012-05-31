@@ -5,6 +5,7 @@
 package com.github.iaccidentally.ecm.configuration;
 
 import com.github.iaccidentally.ecm.CommandManager;
+import java.util.List;
 
 public class Data {
     
@@ -30,6 +31,12 @@ public class Data {
     {
         double intToReturn = CommandManager.getPlugin().getData().getDouble(node);
         return intToReturn;
+    }
+    
+    public static List<String> getList(String node)
+    {
+       List<String> listToReturn = CommandManager.getPlugin().getData().getStringList(node);
+       return listToReturn;
     }
     
     
