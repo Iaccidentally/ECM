@@ -1,13 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.github.iaccidentally.ecm.listeners;
 
-/**
- *
- * @author casdorph.gavin & Iaccidentally
- */
 import com.github.iaccidentally.ecm.commands.Util;
 import org.bukkit.ChatColor;
 import org.bukkit.block.Block;

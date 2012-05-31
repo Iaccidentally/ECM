@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package com.github.iaccidentally.ecm.listeners;
 
 import com.github.iaccidentally.ecm.commands.Util;
@@ -13,10 +8,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockDamageEvent;
 import org.bukkit.util.BlockVector;
 
-/**
- *
- * @author Whisk
- */
 public class BlockListener {
     
     public static BlockVector block1;
