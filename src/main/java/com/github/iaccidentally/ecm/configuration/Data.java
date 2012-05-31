@@ -20,6 +20,18 @@ public class Data {
         return booleanToReturn;
     }
     
+    public static int getInt (String node)
+    {
+        int intToReturn = CommandManager.getPlugin().getData().getInt(node);
+        return intToReturn; 
+    }
+    
+    public static double getDouble(String node)
+    {
+        double intToReturn = CommandManager.getPlugin().getData().getDouble(node);
+        return intToReturn;
+    }
+    
     
 }
     
