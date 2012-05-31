@@ -21,7 +21,7 @@ public class Data {
         return booleanToReturn;
     }
     
-    public static int getInt (String node)
+    public static int getInt(String node)
     {
         int intToReturn = CommandManager.getPlugin().getData().getInt(node);
         return intToReturn; 
@@ -39,6 +39,34 @@ public class Data {
        return listToReturn;
     }
     
+    public static void setString(String node, String data)
+    {
+        CommandManager.getPlugin().getData().set(node, data);
+    }
     
+    public static void setBoolean(String node, boolean data)
+    {
+        CommandManager.getPlugin().getData().set(node, data);
+    }
+    
+    public static void setInt(String node, int data)
+    {
+        CommandManager.getPlugin().getData().set(node, data);
+    }
+    
+    public static void setDouble(String node, double data)
+    {
+        CommandManager.getPlugin().getData().set(node, data);
+    }
+    
+    public static void setList(String node, List<String> data)
+    {
+        CommandManager.getPlugin().getData().set(node, data);
+    }
+    
+    public static void saveData()
+    {
+        CommandManager.getPlugin().saveData();
+    }
 }
     
